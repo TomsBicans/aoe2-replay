@@ -3,9 +3,16 @@ import sys
 import pyperclip
 
 
-def format_video_path(path):
+def format_video_path(filepath: str):
+    if os.path.isdir(filepath):
+        print("This is a directory. Not creating a format path.")
+        return
+    
+    if not os.path.exists(filepath) and not os.path.isfile(filepath):
+        print("File does not exist.")
+        return
     # Split the path into components
-    path_parts = os.path.normpath(path).split(os.sep)
+    path_parts = os.path.normpath(filepath).split(os.sep)
 
     # Get the directory name just before the file
     dir_name = path_parts[-2]
