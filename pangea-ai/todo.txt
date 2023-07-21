@@ -1,0 +1,37 @@
+I need a python program that generates an AI script for Age of empires 2 HD editiom game played on a custom map named pangea. The map is a one large island with a surrounding ocean. At the start of the game, the only possible connection between players is on the sea. The starting area of the player is a relatively small patch of land with access to the ocean and surrounded by trees. The continent is a land with no indestructible obstacles, but covered with a sea of trees and occasional patches of free land that can be "digged" to. As the game progresses, free space and ground paths open between players, because of the cut down trees.
+
+I will now explain the main strategy to success in this map.
+Dark age:
+The main optimal strategy is to try to build the base as compact as possible in the beggining. The player starts off by building houses to increase villager production and pumps villagers till about 15-17. In parralel to creating villagers, the first two tech building to construct is the lumberjack and the port.
+
+The player needs to build the lumberjack as close as possible to the trees surrounding the starting base for it to be as efficient as possible to clear clear trees and harvest their resources. It is optimal to start creating fishing ships when the port has been created. Optimally, send 1 fishing ship around the pangea continent to visit other player's bases and gather map vision.
+
+Gather all the food from the starting animals, kill the boar and create fishing ships and then enter the feudal age.
+
+Feudal age:
+Right now, there should be a huge amount of wood flowing in the player's economy, because it is needed to create space by cutting down trees for base expansion. The next building to create is the market and mill. Create the market as close as possible to the main town center. The player needs to sell wood as fast as possible, because it is possible to gain almost 1 thousand gold using the starting market rates. Once the market sell price for wood is 14 or 17 gold per 100 wood, then stop.
+
+A small fleet could be started to created, because at the early to mid game, the only contact between players is by the sea.
+
+There should be non-stop villager production going on and most villagers should be sent to mine wood. Some should be sent to gold and stone patches, but most to gather wood. As land frees up near the center base, farms should be put to gather food. Enter the castle age.
+
+Castle age:
+Build additional 3-4 town centers and keep creating villagers till about 180+ villager population. Send most to gather wood and free space. Once the distance between the lumber camps are increased enough, build new lumbercamps closer to the trees and delete the old ones. This should be done fairly frequently, especially on the turbo gamemode.
+
+The new free space can be used for more economy (farms/houses) or for military structures (castles, baracks).
+
+Ocasionally a new patch of land will be diggen to. It is optimal to create watch towers at the edges to see potential new areas.
+
+Build a massive farm and woodcutter economy.
+
+Try to first clear the land near the ocean to build additional docks. In human vs human games there can be about 20-30 docks for each player.
+
+Imperial age:
+Upgrade all military tech. Create a big sea fleet and attack the enemy. Keep refilling the farms. Create a wall around the main farm eco if possible.
+
+Sell food to gain gold. (Create huge farm eco)
+
+
+
+Resources:
+Research all economy boosting upgrades when they are first available to do so when entering a new age.
