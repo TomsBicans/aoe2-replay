@@ -1,0 +1,30 @@
+q1:
+Is it possible to automate the video recording of age of empires 2 HD edition replays from each player's perspective? I kinda thought of using OBS to capture the displays. I want to create software that can accept 1 input argument: the replay file of the game. The program launches age of empires a number of times in a sequence that is equal to the amount of players in the match. The program puts the view lock and perspective of each player. The program automates the recording of each player's POV of the game. How possible is it to automate this process?
+
+
+a1:
+
+Automating this process is possible, but it would require a combination of several tools and may not be completely straightforward.
+
+Here's a rough idea on how you might approach this:
+
+Automating Age of Empires 2 HD: You'll need to interact with Age of Empires 2 HD in an automated fashion. This might involve creating a bot or script to control the game client. There are tools such as AutoIt or PyAutoGui that allow you to simulate mouse clicks and keyboard presses based on screen position. However, this may not be enough for Age of Empires 2 HD, as the game doesn't have a built-in API for direct interaction. Thus, your scripts would be reliant on screen positions which may vary depending on resolution, window size, etc.
+
+Replay Files: Replay files are essentially recordings of player inputs, rather than video files. Age of Empires 2 HD replays files might be difficult to interpret as they might not be in an easily readable format. However, if you can figure out a way to interpret and feed these inputs into your game instance, you could essentially recreate the game from any player's perspective. This could potentially be a complex process, involving reverse-engineering the replay file format.
+
+Automating OBS: Open Broadcaster Software (OBS) does have an API, and there are libraries (like obs-websocket-py) which you can use to automate OBS to start/stop recording. Once you can control the game, you can trigger OBS to start recording when the game starts, and stop recording when the game ends.
+
+Program Architecture: Your program would ideally have a main control loop that does the following:
+
+Reads the replay file and determines the number of players.
+For each player, it sets up the game and adjusts the perspective to that player.
+It starts OBS recording, then plays the game replay.
+Once the replay finishes, it stops the OBS recording.
+It repeats this process for each player.
+Keep in mind this process might be complex, prone to errors (especially if the game updates or your screen resolution changes), and potentially against the game's terms of service (since it involves automated control of the game client). It also would require a fair amount of coding, and potentially reverse-engineering expertise if the replay file format is complex.
+
+You could potentially reach out to the developers of Age of Empires or the community around the game, as they may have tools, tips, or suggestions that could assist you in your project.
+
+
+
+
